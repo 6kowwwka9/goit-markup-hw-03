@@ -34,8 +34,15 @@
     box-sizing: border-box;
     width: 1158px;
     padding: 0 15px;
+    display: flex;
 }
 
+.logo-one {
+    margin-right: 76px;
+}
+.logo-color-head {
+    margin-right: 76px;
+}
 .header {
     font-size: 56px;
     font-style: normal;
@@ -53,7 +60,7 @@
     display: flex;
     align-items: center;
 }
-.site-nav-conteiner {
+.site-nav-container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -64,6 +71,11 @@
     flex-grow: 1;
     
 
+}
+.header .logo {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 76px;
 }
 
 .p {
@@ -443,18 +455,20 @@ margin-bottom: 8px;
     color: #404bbf;
 }
 
-.top-menu-address-link {
+.contakt-link {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 
-.top-menu-address-link:hover {
+.contakt-link:hover {
     color: #404bbf;
 }
 
-.top-menu-address-link:focus {
+.contakt-link:focus {
     color: #404bbf;
 }
 
