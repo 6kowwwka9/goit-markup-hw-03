@@ -72,7 +72,7 @@
     
 
 }
-.header .logo {
+.logo-one {
     display: inline-flex;
     align-items: center;
     margin-right: 76px;
@@ -81,6 +81,14 @@
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
+}
+.site-nav-class {
+    display: flex;
+    gap: 40px;
+}
+.header-link {
+    padding: 24px 0;
+
 }
 .p {
     color: #434455;
@@ -291,6 +299,18 @@
     row-gap: 48px;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .photo-name {
     margin-bottom: 8px;
 }
@@ -300,6 +320,7 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
 
 }
 .portfolio-cards {
@@ -349,7 +370,9 @@ width: calc((100% - 48px) / 3);
 .link {
     padding: 100px 0;
 }
-.footer-container {}
+.footer-container {
+
+}
 
 
 
