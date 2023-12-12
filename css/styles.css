@@ -216,9 +216,7 @@
     margin-bottom: 72px;
 }
 
-.visually-hidden {
-    margin-bottom: 72px;
-}
+
 
 .skip-navigation {
     @include visually-hidden-focusable;
@@ -316,7 +314,9 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+     margin-bottom: 72px;
 }
+       
 .photo-name {
     margin-bottom: 8px;
 }
@@ -487,7 +487,7 @@ margin-bottom: 8px;
     text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    display: inline-block;
 }
 
 
