@@ -91,6 +91,19 @@
     padding: 24px 0;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin-bottom: 72px;
+}
 .p {
     color: #434455;
     font-size: 16;
@@ -110,19 +123,7 @@
         
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    margin-bottom: 72px;
-}
+
 .site-nav {
     display: flex;
     align-items: center;
@@ -223,16 +224,10 @@
 }
 
     
-.visually-hidden-title {
-    @include visually-hidden;
-    margin-bottom: 72px;
-}
 
 
 
-.skip-navigation {
-    @include visually-hidden-focusable;
-}
+
 
 .section-two-title {
     font-weight: 500;
